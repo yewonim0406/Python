@@ -1,5 +1,8 @@
+/* Occupations */
+
 -- 2021.07.06.Tue
 -- https://www.hackerrank.com/challenges/occupations/problem
+-- Advanced Select
 -- Subquery, Pivot, 분석함수
 
 SELECT Doctor, Professor, Singer, Actor
