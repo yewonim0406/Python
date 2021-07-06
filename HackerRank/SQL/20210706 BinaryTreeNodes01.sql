@@ -12,3 +12,8 @@ SELECT CASE WHEN p IS NULL THEN CONCAT(n, ' Root')
         END
   FROM bst
  ORDER BY n;
+
+
+/* p가 null인 값은 결국 위에 parent node가 없다는 것 -> Root
+   만약 n의 값이 p에도 존재한다면 -> Inner
+   그 외의 것 -> Leaf */
