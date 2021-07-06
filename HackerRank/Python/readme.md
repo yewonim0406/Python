@@ -1,1 +1,1 @@
-### HackerRank python 문제풀이
+### python 문제풀이
