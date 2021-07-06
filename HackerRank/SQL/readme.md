@@ -1,1 +1,1 @@
-### HackerRank SQL 문제 풀이
+### SQL 문제 풀이
