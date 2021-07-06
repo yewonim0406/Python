@@ -20,3 +20,8 @@
          GROUP BY company_code) b
     ON a.company_code = b.company_code
  ORDER BY a.company_code;
+ 
+ 
+ /* 총 5개의 Table이 존재하지만, 제일 마지막 테이블인 Employee 테이블에 lead manager, senior manager, manager에 대한 정보도 모두 담겨 있다. 
+    따라서 company 테이블과 employee 테이블로 원하는 결과를 도출할 수 있음. 단, COUNT를 그대로 사용하게 되면, 각 매니저들의 고유한 코드를 카운팅하는 것이 아닌 전체 row의 수를 카운트 하기 때문에
+    COUNT(DISTINCT)를 사용해주어야 함 */
